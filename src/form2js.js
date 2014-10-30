@@ -1,5 +1,6 @@
 /**
  * Copyright (c) 2010 Maxim Vasiliev
+ * Modified 2014 Dirk Heniges
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
