@@ -25,18 +25,12 @@
  */
 
 
+var formToJs;
+
 (function (root, factory)
 {
-	if (typeof define === 'function' && define.amd)
-	{
-		// AMD. Register as an anonymous module.
-		define(factory);
-	}
-	else
-	{
-		// Browser globals
-		root.form2js = factory();
-	}
+	// Cheating to make this webpack compatible
+	formToJs = factory();
 }(this, function ()
 {
 	"use strict";
@@ -343,3 +337,5 @@
 	return form2js;
 
 }));
+
+module.exports = formToJs;
